@@ -1,8 +1,6 @@
 <script lang="ts">
-	import Counter from './components/Counter.svelte'
+	import Img from './components/Img.svelte'
+	import teste from './assets/teste.jpg'
 </script>
 
-<Counter />
-
-<style>
-</style>
+<Img src={teste} alt="Imagem de teste." />
